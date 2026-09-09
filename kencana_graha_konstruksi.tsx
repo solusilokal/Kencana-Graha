@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import logoImg from './src/assets/logo.png';
 import heroBgImg from './src/assets/hero-bg.jpg';
 import ogImg from './src/assets/og-image.png';
+import galeri1 from './src/assets/galeri-1.webp';
+import galeri2 from './src/assets/galeri-2.webp';
+import galeri3 from './src/assets/galeri-3.webp';
+import galeri4 from './src/assets/galeri-4.webp';
+import galeri5 from './src/assets/galeri-5.webp';
+import galeri6 from './src/assets/galeri-6.webp';
 import {
   Instagram,
   MapPin,
@@ -61,12 +67,12 @@ const pageData = {
     { year: "2024", title: "Inovasi Modern", desc: "Mengintegrasikan konsep smart-home & eco-friendly dalam setiap proyek." }
   ],
   catalog: [
-    { title: "Modern Minimalist House", category: "Eksterior", img: "/public/galeri-1.webp" },
-    { title: "Cozy Living Room", category: "Interior", img: "/public/galeri-2.webp" },
-    { title: "Industrial Kitchen", category: "Interior", img: "/public/galeri-3.webp" },
-    { title: "Classic Villa Facade", category: "Eksterior", img: "/public/galeri-4.webp" },
-    { title: "Executive Office", category: "Interior", img: "/public/galeri-5.webp" },
-    { title: "Tropical Backyard", category: "Eksterior", img: "/public/galeri-6.webp" }
+    { title: "Modern Minimalist House", category: "Eksterior", img: galeri1 },
+    { title: "Cozy Living Room", category: "Interior", img: galeri2 },
+    { title: "Industrial Kitchen", category: "Interior", img: galeri3 },
+    { title: "Classic Villa Facade", category: "Eksterior", img: galeri4 },
+    { title: "Executive Office", category: "Interior", img: galeri5 },
+    { title: "Tropical Backyard", category: "Eksterior", img: galeri6 }
   ],
   pricing: [
     {
